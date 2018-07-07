@@ -10,6 +10,14 @@ body {
     background-color: #808080;
     height:2px;
 }
+
+#blog_hr {
+  background-color: #808080;
+  height:2px;
+  width:95%;
+  margin-top: 0px;
+
+}
 /*==============GLOBAL==============*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -83,19 +91,50 @@ h1 {
   background-size: cover;
   margin-top: 0px;
 }
+
+/*===============BLOG HERO==============*/
+
+#blog_hero {
+  background-image: url("../img/letters.jpeg");
+  width: 100%;
+  height: 400px;
+  background-position:center;
+  background-size: cover;
+  margin-top: 0px;
+}
+
+#contact_hero {
+  background-image: url("../img/contact.jpeg");
+  width: 100%;
+  height: 400px;
+  background-position:center;
+  background-size: cover;
+  margin-top: 0px;
+}
+
+/*=============FAQ HERO=================*/
+
+#FAQ_hero {
+  background-image: url("../img/faq.jpeg");
+  width: 100%;
+  height: 400px;
+  background-position:center;
+  background-size: cover;
+  margin-top: 0px;
+}
 /*=============DESCRIPTION===========*/
 
 #description {
   width: 90%;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #description h2 {
   text-align: center;
 }
 
-#description h3 {
+#description > h3 {
   padding-top: 20px;
 }
 
@@ -117,7 +156,7 @@ h1 {
   padding: 20px 0px 40px 0px;
 
   width: 70%;
-  margin: auto;
+  margin:auto;
 }
 
 .profile img {
@@ -130,8 +169,96 @@ h1 {
 
 }
 
+/*=============BLOG POSTS=============*/
+
+.blog_post {
+  border: 2px solid black;
+
+}
 
 
+.post {
+  width: 70%;
+  display:inline-block;
+  margin-left: 10px;
+}
+
+.blog_post > img {
+  float: left;
+  padding: 10px;
+
+}
+
+.blog_post h3,  {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.blog_post h5 {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.blog_post p {
+  font-size: 15px;
+}
+
+/*=============CONTACT DESCRIPTION===============*/
+
+#contact_description  {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/*==============CONTACT MESSAGE===============*/
+
+#feedback {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.feedback {
+  margin: auto;
+  width:60%;
+  text-align: center;
+}
+
+.feedback #left {
+  padding-right: 100px;
+}
+
+.feedback input[type="text"] ,
+.feedback input[type="number"] ,
+.feedback input[type="email"] {
+  text-align: center;
+}
+
+span {
+  margin-left:20px;
+}
+#feedback input[type="textarea"] {
+  width: 80%;
+  height: 200px;
+}
+
+#feedback input[type="button"] {
+  width: 200px;
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px;
+}
+
+#feedback input[type="button"]:hover {
+  background: #808080;
+}
 
 
 /*=============CLASSES==============*/
@@ -310,4 +437,10 @@ footer ul li {
 
 footer ul li a:hover {
   color: white;
+}
+
+/*===========FOOTER===========*/
+
+footer {
+  clear:both;
 }
