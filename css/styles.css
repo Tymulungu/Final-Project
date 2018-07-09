@@ -14,7 +14,7 @@ body {
 #blog_hr {
   background-color: #808080;
   height:2px;
-  width:95%;
+  width:100%;
   margin-top: 0px;
 
 }
@@ -171,9 +171,10 @@ h1 {
 
 /*=============BLOG POSTS=============*/
 
+
 .blog_post {
   border: 2px solid black;
-
+  height: 300px;
 }
 
 
@@ -181,12 +182,12 @@ h1 {
   width: 70%;
   display:inline-block;
   margin-left: 10px;
+  clear:both;
 }
 
 .blog_post > img {
   float: left;
   padding: 10px;
-
 }
 
 .blog_post h3,  {
@@ -203,6 +204,7 @@ h1 {
 
 .blog_post p {
   font-size: 15px;
+  padding-bottom:none;
 }
 
 /*=============CONTACT DESCRIPTION===============*/
